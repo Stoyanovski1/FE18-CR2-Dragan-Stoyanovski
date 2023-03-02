@@ -70,7 +70,7 @@ const tasks = JSON.parse(books1)
 
 const result = document.querySelector("#result");
 for (let i = 0; i < tasks.length; i++) {
-    result.innerHTML += `<div class="card my-3" style="width: 23rem; box-shadow: 1px 1px 15px black">
+    result.innerHTML += `<div class="card my-3" style="width: 23rem; box-shadow: 1px 1px 15px black; margin: 0 auto;">
     <p><a href="#" class="btn btn-primary float-start mt-3 align-self-center"  style="width: 4rem; height: 35px;">Task</a><svg xmlns="http://www.w3.org/2000/svg" width="16" style=" height: 35px;" fill="currentColor" class="bi bi-three-dots-vertical float-end mt-3" viewBox="0 0 16 16">
     <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
   </svg> 
